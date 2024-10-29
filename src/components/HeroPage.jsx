@@ -2,33 +2,50 @@ import React from 'react'
 
 const HeroPage = () => {
   return (
-    <div>
-         {/* Hero Area */}
-      <div id="hero-area" className="hero-area section">
-        <div className="hero-slider">
-        {/* Hero Item 2 */}
-            <div className="hero-item">
-            <img src={`${process.env.PUBLIC_URL}/img/hero/2.jpg`} alt="Hero 2" />
+    <div id="hero-area" className="hero-area section">
+    <div className="hero-slider">
+        <div className="hero-item">
+            <img src="/img/hero/1.jpg" alt=""/>
             <div className="container">
-              <div className="row">
-              <div className="font-extrabold text-white col-lg-10 col-12">
-                <h2 className="text-7xl text-white md:text-6xl font-extrabold mb-4">
-                    Best team, one dream
-                </h2>
-                <p className="text-xl md:text-xl text-yellow-400">
-                United by passion, driven by purpose. Our team trains hard, plays harder, and never stops until
-                we achieve victory together!
-                </p>
+                <div className="row">
+                  
+                    <div className="hero-content col-lg-10 col-12">
+                        <h1>best team, <span>one dream</span></h1>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered eration in some form, by injected humour, or randomised words which don't look even slightly believableilable, but the majority have suffered eration in some form, by injected</p>
+                        <a href="#next-match-area" data-scroll>next match</a>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
         </div>
-      </div>
-
-
-          
+        <div className="hero-item">
+            <img src="/img/hero/2.jpg" alt=""/>
+            <div className="container">
+                <div className="row">
+                    <div className="hero-content col-lg-10 col-12">
+                        <h1>best team, <span>one dream</span></h1>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered eration in some form, by injected humour, or randomised words which don't look even slightly believableilable, but the majority have suffered eration in some form, by injected</p>
+                        <a href="#next-match-area" data-scroll>next match</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div className="hero-item">
+            
+            <img src="/img/hero/3.jpg" alt=""/>
+            <div className="container">
+                <div className="row">         
+                    <div className="hero-content col-lg-10 col-12">
+                        <h1>best team, <span>one dream</span></h1>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered eration in some form, by injected humour, or randomised words which don't look even slightly believableilable, but the majority have suffered eration in some form, by injected</p>
+                        <a href="#next-match-area" data-scroll>next match</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+   
+</div>
   )
 }
 
