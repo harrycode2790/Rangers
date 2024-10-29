@@ -1,11 +1,13 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom'; 
+import HeroPage from './HeroPage';
 
+// HomePage Component
 const HomePage = () => {
   return (
-    <div>
-      hello world 
-    </div>
-  )
-}
+    
+      <HeroPage/>
+  );
+};
 
-export default HomePage
+export default HomePage;
